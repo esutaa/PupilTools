@@ -1,0 +1,40 @@
+Display class and grade to user
+Display percentage points of each points needed for grade
+
+___________________________________________
+Have user input semester**
+Have user input class
+--Name
+Have user input percentage for grade
+Have user input grade
+
+___________________________________________
+Have user delete semester**
+Have user edit class
+Have user delete class
+Have user edit percentage
+Have user edit grade
+Have user delete grade
+
+Visual:
+User opens app. A display of their grades are listed out for them (the most previous
+semester, popping down. Class sorted alphabetically). User clicks to add a semester:
++Enters name of semester.
+User clicks to add class:
++Enters name of class. After adding, text comes up asking user:
+++Do you want to add percentage requirements?
+User clicks no:
+++Goes back to home screen
+User clicks yes:
++Two input is displayed, and a button to add more as well as a finish button
+When user clicks finish:
++A text comes up asking the user: 
+++Would you like to add grades?
+User clicks no:
++Goes back to home screen
+User clicks yes:
++Goes to a list, asking user which one they would like to add to from percentage points
+
+_____________________________________________
+HOME LOOK
+Shows a list of classes, semesters, grades

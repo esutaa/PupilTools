@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_"
+        android:title="Home" />
+    <item
+        android:id="@+id/gradeCalc"
+        android:icon="@drawable/ic_grade_black"
+        android:title="Grade Calculator" />
+    <item
+        android:id="@+id/gpaCalc"
+        android:title="GPA Calculator" />
+    <item
+        android:id="@+id/past"
+        android:title="Past Courses" />
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_account_circle_black_"
+        android:title="My Account" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings_black"
+        android:title="Settings" />
+</menu>

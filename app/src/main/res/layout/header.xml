@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File header for menu button -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#3F51B5"
+    android:padding="16dp">
+
+    <ImageView
+        android:src="@drawable/imageuser"
+        android:background="#FFF"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="12dp"/>
+
+    <LinearLayout
+        android:id="@+id/headerTitle"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esther Adu"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</LinearLayout>

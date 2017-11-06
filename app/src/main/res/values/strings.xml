@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PupilTools</string>
+    <string name="menuOpen">Open</string>
+    <string name="menuClose">Close</string>
+</resources>
