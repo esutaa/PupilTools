@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+<menu
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <group android:checkableBehavior="single">
     <item
         android:id="@+id/home"
         android:icon="@drawable/ic_home_black_"
-        android:title="Home" />
+        android:title="@string/home" />
     <item
         android:id="@+id/gradeCalc"
         android:icon="@drawable/ic_grade_black"
-        android:title="Grade Calculator" />
+        android:title="@string/grade_calculator" />
     <item
         android:id="@+id/gpaCalc"
-        android:title="GPA Calculator" />
+        android:title="@string/gpa_calculator" />
     <item
         android:id="@+id/past"
-        android:title="Past Courses" />
+        android:title="@string/past_courses" />
     <item
         android:id="@+id/account"
         android:icon="@drawable/ic_account_circle_black_"
-        android:title="My Account" />
+        android:title="@string/my_account" />
     <item
         android:id="@+id/setting"
         android:icon="@drawable/ic_settings_black"
-        android:title="Settings" />
+        android:title="@string/settings" />
+    </group>
 </menu>

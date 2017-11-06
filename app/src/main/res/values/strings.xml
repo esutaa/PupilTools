@@ -2,4 +2,10 @@
     <string name="app_name">PupilTools</string>
     <string name="menuOpen">Open</string>
     <string name="menuClose">Close</string>
+    <string name="home">Home</string>
+    <string name="grade_calculator">Grade Calculator</string>
+    <string name="gpa_calculator">GPA Calculator</string>
+    <string name="past_courses">Past Courses</string>
+    <string name="my_account">My Account</string>
+    <string name="settings">Settings</string>
 </resources>
